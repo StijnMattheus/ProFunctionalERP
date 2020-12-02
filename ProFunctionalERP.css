@@ -1,0 +1,37 @@
+#List {
+  border-collapse: collapse;
+  width: 75%;
+}
+
+#List th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 3px;
+  padding-left: 3px;
+  background-color: lightblue;
+  text-align: left;
+  color: black;
+}
+
+#List td {
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: left;
+  color: black;
+}
+
+#List tr:nth-child(even) {
+  background-color: lightgrey;
+}
+
+#List tr:hover {
+  background-color: peru;
+}
+
+th,
+td {
+  border: white;
+  border-radius: 6px;
+}
